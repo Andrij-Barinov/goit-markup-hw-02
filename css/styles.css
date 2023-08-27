@@ -1,10 +1,10 @@
 :root {
     /* Fonts */
-    --main-font: Roboto, sans-serif;
-    --logo-font: Raleway, sans-serif;
+    --main-font: "Roboto", sans-serif;
+    --logo-font: "Raleway", sans-serif;
 
     /* Colors */
-    --primary-brand-color: #4D5AE5;
+    --primary-brand-color: #4d5ae5;
     --pressed-state-color: #404BBF;
     --dark-color: #2E2F42;
     --white-color: #FFFFFF;
@@ -62,14 +62,20 @@ address {
 */
 .logo {
     font-family: var(--logo-font);
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--primary-brand-color)
 }
 
-.logo-accent {
-    color: var(--primary-brand-color);
+.header-logo {
+    color: var(--dark-color);
+}
+
+.footer-logo {
+    color: var(--light-color);
 }
 
 /**
@@ -83,6 +89,7 @@ address {
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 /**
@@ -95,6 +102,7 @@ address {
      font-size: 20px;
      font-weight: 500;
      line-height: 1.2;
+     letter-spacing: 0.02em;
  }
 
 /**
@@ -119,10 +127,14 @@ address {
 */
 .hero {
     background-color: var(--hero-footer-background-color);
+}
+
+.hero-head {
     color: var(--white-color);
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -131,6 +143,7 @@ address {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        font-family: "Roboto", sans-seri;
 }
 
 .hero-btn:hover,
@@ -148,6 +161,13 @@ address {
     text-align: center;
 }
 
+ .team-card {
+    background-color: var(--white-background-color);
+ }
+
+ .team-text {
+    font-size: 16px;
+ }
 /**
   |============================
   | Filter
@@ -159,6 +179,7 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    font-family: "Roboto", sans-seri;
     color: var(--primary-brand-color);
     text-align: center;
 }
