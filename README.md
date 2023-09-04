@@ -1,1 +1,1 @@
-# goit-markup-hw-01
+# Module 2: Introduction to CSS.
